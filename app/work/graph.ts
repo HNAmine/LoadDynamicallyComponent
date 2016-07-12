@@ -5,7 +5,7 @@ import {EdgeService} from './edge-service';
 
 @Component({
   selector: 'graph',
-  directives: [Edge, Vertex],
+  directives: [Vertex],
   templateUrl: 'app/work/graph.html',
   providers: [EdgeService]
 })
@@ -29,4 +29,4 @@ export class Graph implements OnInit {
 
   }
 
-} 
+}

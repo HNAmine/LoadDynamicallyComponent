@@ -29,7 +29,7 @@ var Graph = (function () {
     Graph = __decorate([
         core_1.Component({
             selector: 'graph',
-            directives: [edge_1.Edge, vertex_1.Vertex],
+            directives: [vertex_1.Vertex],
             templateUrl: 'app/work/graph.html',
             providers: [edge_service_1.EdgeService]
         }), 

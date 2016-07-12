@@ -9,20 +9,17 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var graph_1 = require("./work/graph");
-var tower_1 = require("./replay/tower");
-var AppComponent = (function () {
-    function AppComponent() {
+var Item2Component = (function () {
+    function Item2Component() {
     }
-    AppComponent = __decorate([
+    Item2Component = __decorate([
         core_1.Component({
-            selector: 'my-app',
-            template: '<h1>My First Angular 2 App</h1> <tower></tower>',
-            directives: [graph_1.Graph, tower_1.TowerComponent]
+            selector: 'item2',
+            templateUrl: '<h1>item2</h1>'
         }), 
         __metadata('design:paramtypes', [])
-    ], AppComponent);
-    return AppComponent;
+    ], Item2Component);
+    return Item2Component;
 }());
-exports.AppComponent = AppComponent;
-//# sourceMappingURL=app.component.js.map
+exports.Item2Component = Item2Component;
+//# sourceMappingURL=item2.js.map
